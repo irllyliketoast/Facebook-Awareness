@@ -1,6 +1,6 @@
 # Cybersecurity Awareness: The Truth About Facebook Messenger
 ### Project Overview  
-This mini project explores the privacy risks associated with Facebook Messenger’s data collection practices. Originally written as an article for my parents' neighborhood newspaper to educate older adults on the dangers of Facebook, the project expands on those ideas in a digital format. Built as part of a cybersecurity awareness initiative, the website aims to inform users about how Messenger tracks personal data, the extent of its surveillance, and why understanding digital privacy is crucial. This project also helped refine my HTML and CSS skills while addressing real-world cybersecurity concerns.  
+This is a mini-project created for my Management Information Systems (UNCW MIS 310) class. This mini-project explores the privacy risks associated with Facebook Messenger’s data collection practices. Originally written as an article for my parents' neighborhood newspaper to educate older adults on the dangers of Facebook, the project expands on those ideas in a digital format. Built as part of a cybersecurity awareness initiative, the website aims to inform users about how Messenger tracks personal data, the extent of its surveillance, and why understanding digital privacy is crucial. This project also helped refine my HTML and CSS skills while addressing real-world cybersecurity concerns.  
 
 ### Features  
 - **In-depth Analysis:** Explains how Messenger collects user data, including IP addresses, device information, and network activity.  
