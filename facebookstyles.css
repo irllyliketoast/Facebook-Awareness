@@ -1,0 +1,39 @@
+/* Set the background color to light blue */
+body {
+    background-color: #cae2fa;
+}
+
+/* Center headers and set dark blue color */
+h1, h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Increase space before the feedback form */
+section:last-of-type {
+    margin-top: 40px; /* Adjust as needed for spacing */
+}
+
+/* Ensure labels are on separate lines */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Larger text box */
+textarea {
+    width: 100%;
+    height: 150px; /* Increased height for a larger text box */
+    resize: vertical; /* Allows user to adjust size if needed */
+}
+
+.image-container {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 300px;
+    height: auto;
+}
