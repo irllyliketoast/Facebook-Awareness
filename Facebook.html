@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="facebookstyles.css">
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Awareness: The Truth About Facebook Messenger</h1>
+    </header>
+    <section>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/736x/5f/70/32/5f7032b814bdc8a4dc6a05eef6643df2.jpg" alt="Facebook Monitoring" class="image">
+        </div>
+        <p>Imagine if every time you had a conversation in your home, someone was standing outside your window, writing down everything you said, 
+		noting who was in the room, and even keeping track of the furniture in your house. Sounds invasive, right? That’s essentially what 
+		Messenger does—but instead of a stranger outside, it’s a multi-billion-dollar company, <i>Facebook.</i> Facebook Messenger isn’t just an 
+		app for chatting—it’s one of the most invasive data collectors on your phone. While most apps gather some basic data, Messenger takes it 
+		to a whole new level. If you have it installed, it’s not just tracking you—it’s collecting details from every device on the network you’re 
+		connected to, including: <em> your IP Address, Device Name, </em>and<em> MAC Address.</em></p>
+        
+        <p>That means every time you connect to a Wi-Fi network, Messenger scans and logs every device on it. Your friend’s phone? <em>Logged.</em> 
+		Your laptop? <em>Logged.</em> Even smart TVs and home assistants get recorded. And who owns this data? A private American company with <i>no 
+		obligation</i> to protect your privacy.</p>
+        
+        <p>But this isn’t new—Facebook was <i>built</i> on stolen data. It started as “Facemash,” a Harvard project where Mark Zuckerberg hacked school 
+		servers to steal student photos and create a website rating women’s attractiveness. That obsession with data theft never stopped. Facebook 
+		didn’t innovate social media—it stole the idea from early networking sites like MySpace and Friendster. And when it couldn’t buy out rising 
+		competitors like Snapchat or TikTok, it cloned their features instead.</p>
+        
+        <p>The bigger problem is that there are no formal ethical laws in cybersecurity. Companies like Facebook don’t have a legal obligation to 
+		protect user data—they do the bare minimum, often after getting caught mishandling it. That’s how breaches like the Ashley Madison leak 
+		happened. The site, known for facilitating extramarital affairs, stored highly sensitive user data without proper encryption. When hackers 
+		exposed it, millions of users had their personal lives destroyed, leading to blackmail, divorces, and even some to take their own life. Or 
+		take DeepSeek, where AI-generated deepfake leaks threaten privacy on a scale never seen before. The lack of clear cybersecurity regulations 
+		means we’re constantly playing defense, waiting for the next major breach instead of preventing it. That’s why privacy isn’t just a software 
+		issue—it’s a personal responsibility. We have to take cybersecurity seriously, not just when developing software, but also in our own homes. 
+		That means limiting the data we share, questioning what apps we install, and understanding that if something is free—<i>we are the product.</i></p>
+        
+        <p>If you’re using Messenger, you’re feeding one of the most aggressive data-harvesting machines in history. Maybe it’s time to reconsider how 
+		much access we’re giving to a company that built its empire on stolen information.</p>
+    </section>
+    <section>
+		
+        <h2>Feedback Form</h2>
+        <p>Share your thoughts on cybersecurity and data privacy:</p>
+        <form action="/submit-feedback" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="opinion">What are your thoughts on Messenger's data collection?</label>
+            <textarea id="opinion" name="opinion" required></textarea>
+            
+            <fieldset>
+                <legend>How concerned are you about data privacy?</legend>
+                <input type="radio" id="very" name="concern" value="Very Concerned">
+                <label for="very">Very Concerned</label>
+                <input type="radio" id="somewhat" name="concern" value="Somewhat Concerned">
+                <label for="somewhat">Somewhat Concerned</label>
+                <input type="radio" id="not" name="concern" value="Not Concerned">
+                <label for="not">Not Concerned</label>
+            </fieldset>
+            
+            <label for="precautions">Which cybersecurity precautions do you take?</label>
+            <select id="precautions" name="precautions">
+                <option value="vpn">Use a VPN</option>
+                <option value="2fa">Enable Two-Factor Authentication</option>
+                <option value="private">Limit Social Media Sharing</option>
+                <option value="none">None</option>
+            </select>
+            
+            <fieldset>
+                <legend>What privacy measures do you use?</legend>
+                <input type="checkbox" id="vpn" name="measures" value="VPN">
+                <label for="vpn">VPN</label>
+                <input type="checkbox" id="adblock" name="measures" value="AdBlocker">
+                <label for="adblock">Ad Blocker</label>
+                <input type="checkbox" id="privatebrowser" name="measures" value="Private Browser">
+                <label for="privatebrowser">Private Browser</label>
+            </fieldset>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
