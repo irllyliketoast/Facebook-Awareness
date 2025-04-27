@@ -9,8 +9,8 @@ This is a mini-project created for my Management Information Systems (UNCW MIS 3
 - **Interactive Feedback Form:** Allows visitors to share their thoughts on data privacy and express their level of concern.  
 
 ### Technology Used  
-- **HTML:** Structures the content and layout of the website.  
-- **CSS:** Enhances the visual presentation and usability, including styling for text, form elements, and page layout.  
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) - Structures the content and layout of the website.  
+- [CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) - Enhances the visual presentation and usability, including styling for text, form elements, and page layout.  
 
 ### Purpose  
 This project serves as an educational tool to raise awareness about digital privacy and corporate data collection. By providing a concise yet impactful look at Messenger’s surveillance practices, the website encourages users—especially older generations—to rethink their interactions with online platforms and adopt stronger cybersecurity habits.
